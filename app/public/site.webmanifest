@@ -1,0 +1,19 @@
+{
+  "name": "Wilfred Kivinda — Insights & Demand Planning Professional",
+  "short_name": "Wilfred Kivinda",
+  "description": "Data & Insights professional with expertise in business performance reporting, demand planning, and data-driven storytelling. Based in Nairobi, Kenya.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06080d",
+  "theme_color": "#4eb5ff",
+  "lang": "en-KE",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

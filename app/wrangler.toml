@@ -1,0 +1,14 @@
+# Cloudflare Pages configuration
+# This is optional — Cloudflare Pages can be configured via the dashboard
+# See README.md for deployment instructions
+
+name = "wilfred-kivinda-portfolio"
+compatibility_date = "2025-04-24"
+
+# Environment variables should be set in the Cloudflare Pages dashboard
+# NOT in this file (to avoid committing secrets)
+
+# [vars]
+# NEXT_PUBLIC_SITE_URL = "https://your-domain.com"
+
+# Build-time (embed in static JS): set NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY in the Pages dashboard
