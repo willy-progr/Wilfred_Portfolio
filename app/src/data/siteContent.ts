@@ -13,8 +13,8 @@ export const personal = {
   linkedIn: 'https://www.linkedin.com/in/wilfred-kivinda-a722071b4/',
   whatsapp: 'https://wa.me/254741702108',
   /** Add PDF under `app/public/cv/{cvFileName}` (served as `/cv/...`) */
-  cvPath: '/cv/Wilfred_kivinda_Resume.pdf',
-  cvFileName: 'Wilfred_kivinda_Resume.pdf',
+  cvPath: '/cv/Wilfred_kivinda_CV.pdf',
+  cvFileName: 'Wilfred_kivinda_CV.pdf',
 }
 
 export const hero = {
