@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://wilfredkivinda.example/sitemap.xml
+Sitemap: https://wilfredkivinda.com/sitemap.xml

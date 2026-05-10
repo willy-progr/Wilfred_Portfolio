@@ -236,6 +236,6 @@ export const site = {
   name: "Wilfred Kivinda — Insights & Demand Planning Professional",
   description:
     "Data & Insights professional with expertise in business performance reporting, demand planning, and data-driven storytelling. Based in Nairobi, Kenya.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://wilfredkivinda.example',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://wilfredkivinda.com',
   ogImage: '/images/og-image.svg',
 }
