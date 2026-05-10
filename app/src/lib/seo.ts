@@ -5,6 +5,9 @@
 
 import { personal, site } from '@/data/siteContent'
 
+/** Google Search Console (HTML tag method). Mirrored as a real `<meta>` in `layout.tsx` so static export always includes it. */
+export const GOOGLE_SITE_VERIFICATION = 'Nm-lgw5hXV1dmgOen6YuhzIkIFbJPuClzQH7dQMa69k'
+
 const defaultKeywords = [
   'Wilfred Kivinda',
   'demand planning',
@@ -72,9 +75,6 @@ export function generatePageMetadata() {
     },
     alternates: {
       canonical: url,
-    },
-    verification: {
-      google: 'Nm-lgw5hXV1dmgOen6YuhzIkIFbJPuClzQH7dQMa69k',
     },
     manifest: '/site.webmanifest',
     appleWebApp: {

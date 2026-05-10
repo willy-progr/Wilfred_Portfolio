@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next'
 import { Manrope, Outfit } from 'next/font/google'
 import {
+  GOOGLE_SITE_VERIFICATION,
   generatePageMetadata,
   generatePersonJsonLd,
   generateWebPageJsonLd,
@@ -55,6 +56,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <head>
+        <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
