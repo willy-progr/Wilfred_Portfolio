@@ -73,6 +73,9 @@ export function generatePageMetadata() {
     alternates: {
       canonical: url,
     },
+    verification: {
+      google: 'Nm-lgw5hXV1dmgOen6YuhzIkIFbJPuClzQH7dQMa69k',
+    },
     manifest: '/site.webmanifest',
     appleWebApp: {
       title: personal.name,
